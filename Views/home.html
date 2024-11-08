@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            
+        }
+        #container{
+            background-color: #343a40;
+            padding: 50px;
+            border-radius: 10px ;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 3rem;
+            color: wheat;
+        }
+        .btn {
+            width: 200px;
+            font-size: 1.2rem;
+        }
+        img{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="../images/booklogo.jpg" alt="Logo" style="width: 100px; height: auto;"/> 
+        </div>
+        <h1>Book Inventory Management</h1>
+        <div>
+            <a href="addBook.html" class="btn btn-primary mb-3" role="button">Add a Book <i class="fa-solid fa-book"></i></a>
+        </div>
+        <div>
+            <a href="#" onclick="exportBooks()" class="btn btn-success" role="button">Export Book Data as CSV <i class="fa-solid fa-download"></i></a>
+        </div>
+        
+        
+
+       
+    </div>
+
+    
+
+    <!-- Bootstrap JS  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
